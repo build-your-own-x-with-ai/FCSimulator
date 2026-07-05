@@ -1,0 +1,24 @@
+# Build artifacts
+*.o
+*.tmp
+moc_*.cpp
+ui_*.h
+.qmake.stash
+Makefile
+
+# Qt generated
+FCMac/.qmake.stash
+FCMac/ui_mainwindow.h
+FCMac/moc_*.cpp
+
+# macOS
+.DS_Store
+*.app/Contents/MacOS/*
+
+# ROM files (user should provide their own)
+Data/*.nes
+Data/*.NES
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
